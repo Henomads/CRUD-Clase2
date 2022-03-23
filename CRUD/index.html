@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD-Herbert Mayca</title>
+    <!--Bootswatch--->
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <!--Navegación--->
+    <nav class="nabvar nabvar-dark bg-dark"></nav>
+    <a href="">Productos APP</a>
+    <div class="contenedor">
+        <!--Aplicación--->
+        <div class="columna medida_columna">
+            <!--Formulario--->
+            <div class="medida-1">
+                <div class="tarjeta">
+                    <div class="tarjeta-header">
+                        <h4>Agregar producto</h4>
+                    </div>
+                    <form id="producto-formulario" class="tarjeta-body">
+                        <div class="grupo-formulario">
+                            <input 
+                            type="text"
+                            id="Nombre"
+                            placeholder="Nombre de Producto"
+                            class="control-formulario">
+                        </div>
+                        <div class="grupo-formulario">
+                            <input 
+                            type="number"
+                            id="Precio"
+                            placeholder="Precio de Producto"
+                            class="control-formulario">
+                        </div>
+                        <div class="grupo-formulario">
+                            <input 
+                            type="number"
+                            id="Año"
+                            step="1"
+                            placeholder="2022"
+                            class="control-formulario">
+                        </div>
+                        <div class="grupo-formulario">
+                            <input 
+                            type="submit"
+                            value="Guardar"
+                            class="btn btn-dark btn-bloque">
+                        </div>
+
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!--Lista de Productos-->
+            <div id="producto-lista" class="medida-3">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js" type="module"></script>
+
+</body>
+</html>
+
+<div></div>
